@@ -1,0 +1,27 @@
+{
+  "n_train": 3870,
+  "n_test": 968,
+  "model": "LogisticRegression head on frozen ProsusAI/finbert [CLS] embeddings (encoder frozen; NOT full fine-tuning)",
+  "accuracy": 0.8791,
+  "majority_baseline_accuracy": 0.594,
+  "per_class": {
+    "positive": {
+      "precision": 0.8272,
+      "recall": 0.8272,
+      "f1-score": 0.8272,
+      "support": 272.0
+    },
+    "neutral": {
+      "precision": 0.9053,
+      "recall": 0.8974,
+      "f1-score": 0.9013,
+      "support": 575.0
+    },
+    "negative": {
+      "precision": 0.873,
+      "recall": 0.9091,
+      "f1-score": 0.8907,
+      "support": 121.0
+    }
+  }
+}

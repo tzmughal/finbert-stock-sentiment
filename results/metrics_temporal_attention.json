@@ -1,0 +1,24 @@
+{
+  "model": "PyTorch temporal attention: Linear(5 feats->32) + learned softmax attention over 5 days -> next-day up/down",
+  "seq_len_days": 5,
+  "features": [
+    "mean_score",
+    "pos_share",
+    "neg_share",
+    "log_n",
+    "return"
+  ],
+  "train_windows": 710,
+  "test_windows": 332,
+  "split": "train target_date <= 2023-09-30, test after",
+  "train_accuracy": 0.5451,
+  "test_accuracy": 0.4789,
+  "majority_baseline_test_accuracy": 0.5572,
+  "mean_attention_weight_oldest_to_newest_day": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}

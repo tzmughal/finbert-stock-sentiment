@@ -1,0 +1,49 @@
+{
+  "n_test": 968,
+  "model": "ProsusAI/finbert (pretrained, zero-shot, no fine-tuning)",
+  "accuracy": 0.875,
+  "majority_class": "neutral",
+  "majority_baseline_accuracy": 0.594,
+  "per_class": {
+    "positive": {
+      "precision": 0.7974,
+      "recall": 0.9118,
+      "f1-score": 0.8508,
+      "support": 272.0
+    },
+    "neutral": {
+      "precision": 0.9545,
+      "recall": 0.8383,
+      "f1-score": 0.8926,
+      "support": 575.0
+    },
+    "negative": {
+      "precision": 0.7697,
+      "recall": 0.9669,
+      "f1-score": 0.8571,
+      "support": 121.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "positive",
+    "neutral",
+    "negative"
+  ],
+  "confusion_matrix_rows_true_cols_pred": [
+    [
+      248,
+      20,
+      4
+    ],
+    [
+      62,
+      482,
+      31
+    ],
+    [
+      1,
+      3,
+      117
+    ]
+  ]
+}

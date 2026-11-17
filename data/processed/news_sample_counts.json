@@ -1,0 +1,26 @@
+{
+  "AAPL": {
+    "raw_rows": 58398,
+    "in_date_range_nonempty": 13909,
+    "after_dedup": 3584,
+    "sampled": 1500
+  },
+  "MSFT": {
+    "raw_rows": 36816,
+    "in_date_range_nonempty": 13818,
+    "after_dedup": 3094,
+    "sampled": 1500
+  },
+  "NVDA": {
+    "raw_rows": 20722,
+    "in_date_range_nonempty": 10463,
+    "after_dedup": 2254,
+    "sampled": 1500
+  },
+  "TSLA": {
+    "raw_rows": 44500,
+    "in_date_range_nonempty": 12189,
+    "after_dedup": 3646,
+    "sampled": 1500
+  }
+}
